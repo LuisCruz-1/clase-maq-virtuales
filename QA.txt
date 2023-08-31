@@ -1,0 +1,11 @@
+¿Por qué algunos sistemas operativos no son compatibles con ciertos lenguajes de programación?
+La compatibilidad de los lenguajes de programación con los sistemas operativos depende de factores como la arquitectura del sistema, la disponibilidad de compiladores y bibliotecas específicas para ese sistema, así como las decisiones de diseño tomadas por los creadores del lenguaje y del sistema operativo.
+
+¿Cuáles son los sistemas operativos compatibles con virtualBox?
+VirtualBox es compatible con una variedad de sistemas operativos, incluyendo diferentes distribuciones de Linux, varias versiones de Windows y también macOS.
+
+¿Cuál es el papel fundamental del hypervisor en la virtualización?
+El hypervisor desempeña el papel crucial de administrar y controlar las máquinas virtuales en un entorno de virtualización. Actúa como una capa intermedia entre el hardware físico y las máquinas virtuales, permitiendo la asignación de recursos y el aislamiento entre las VMs para un funcionamiento eficiente y seguro.
+
+Si una de mis máquinas virtuales se corrompe, ¿afecta a las otras máquinas virtuales alojadas?
+En condiciones normales, una máquina virtual que se corrompa o experimente problemas no debería afectar a las demás. Esto es posible gracias al aislamiento proporcionado por el hypervisor, que mantiene las VM separadas entre sí, limitando el impacto de problemas individuales en una VM en el resto del entorno.
